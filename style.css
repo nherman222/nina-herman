@@ -1,6 +1,9 @@
-body {
+body,
+html {
   margin: 0;
   padding: 0;
+  width: 100%;
+  min-height: 100%;
   font-family: "Poppins", sans-serif;
   display: flex;
 }
@@ -105,11 +108,11 @@ body {
   text-transform: uppercase;
 }
 
+/* zoom on hover from: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 .btn-primary:hover {
-  background: #ededed;
-  border-color: #ededed;
   cursor: pointer;
-  color: black;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 /* main images */
@@ -200,6 +203,7 @@ footer {
   font-size: 16px;
   height: 30px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .sign-up input::placeholder {
@@ -225,6 +229,7 @@ footer {
   font-size: 15px;
   margin-bottom: 40px;
   text-transform: uppercase;
+  border-radius: 5px;
 }
 
 #sign-up-confirm:hover {
