@@ -10,9 +10,12 @@ For extra credit I added the mobile menu checkbox hack.
 
 ## What Worked Well
 
-I was able to make a responsive nav bar that turns into a hamburger bar menu when in mobile. My main button transforms
+My main button expands when hovering on it and the main images are staggered just as the Daily Harvest website does. The footer also replicates the footer (which includes the email sign up form) from the Daily Harvest website. Additionally, I was able to make a responsive nav bar that turns into a hamburger bar menu when in mobile.
+I replicated the "Checkout the newest gems" section was inspired by the Patagonia shopping carousel because it looked better than the Daily Harvest layout for that area. When you hover over the images in this section, the opacity of the image is turned down, and a "read more" button appears.
 
 ## What Didn't
+
+I was going to layer the main images with the "Let's find some cool places" wording and the button using a z-index but the only reason that looked good on the Daily Harvest website was because it the images had white backgrounds so I didnt end up doing that. There is a small range for which the main letters and images do not resize because the position of the "Checkout the newest gems" is absolute.
 
 ## Screenshots
 

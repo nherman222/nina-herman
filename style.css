@@ -136,6 +136,7 @@ button:focus {
 h3 {
   font-size: 30px;
   font-weight: normal;
+  margin-bottom: 5px;
 }
 
 .examples {
