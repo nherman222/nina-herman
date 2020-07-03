@@ -10,6 +10,8 @@ For extra credit I added the mobile menu checkbox hack.
 
 ## What Worked Well
 
+I was able to make a responsive nav bar that turns into a hamburger bar menu when in mobile. My main button transforms
+
 ## What Didn't
 
 ## Screenshots
