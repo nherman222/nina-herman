@@ -91,7 +91,7 @@ button:focus {
   margin-bottom: 0px;
 }
 
-/* main button in intro*/
+/* main button in intro */
 .btn-main {
   color: white;
   background-color: black;
@@ -190,6 +190,8 @@ h3 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   border-radius: 40px;
+  top: 120px;
+  left: 95px;
 }
 
 .dock:hover,
@@ -198,7 +200,7 @@ h3 {
   opacity: 80%;
 }
 
-/* when hovering each image, add button */
+/* when hovering each image, add button (learned how to do this ">" thing from https://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-one-element-is-hovered */
 .dock:hover > button,
 .rock:hover > button,
 .boston:hover > button {
@@ -212,13 +214,6 @@ h3 {
 .boston:hover > h4 {
   transition: all 0.4s ease-in-out;
   top: 20px;
-}
-
-.dock button,
-.rock button,
-.boston button {
-  top: 120px;
-  left: 95px;
 }
 
 .dock h4,
@@ -451,6 +446,7 @@ footer {
     transform: none;
   }
 
+  /* footer to vertical */
   footer {
     display: flex;
     flex-direction: column;
