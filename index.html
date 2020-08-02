@@ -16,7 +16,7 @@
     <div class="wrapper">
       <nav class="nav">
         <ul id="menu">
-          <li><a href="#">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li>
             <a href="#"><h2 id="main-title">Nina Herman</h2></a>
           </li>
@@ -30,8 +30,8 @@
         <span></span>
         <span></span>
         <ul id="menu-2">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a id="menu2id" href="#projects">Projects</a></li>
+          <li><a href="https://drive.google.com/file/d/1g1yySo6JwSK9SaMR5guoHkyFz-NsI1jx/view?usp=sharing">Resume</a></li>
         </ul>
       </div>
 
@@ -59,23 +59,24 @@
         </div>
       </div>
 
+      <a id="projects"></a>
       <div class="examples">
         <h3>Check out some of my projects!</h3>
         <div class="example-images">
           <div class="dock">
             <img src="images/chatbot.png" />
             <h4>SAP: AI Chatbot</h4>
-            <button>Read More</button>
-          </div>
-          <div class="rock"> 
-            <img src="images/search.png" />
-            <h4>Search Engine</h4>
-            <button>Read More</button>
+            <button id="chatbot-btn">Read More</button>
           </div>
           <div class="boston">
             <img src="images/maze.png" />
             <h4>Maze Solver</h4>
-            <button>Read More</button>
+            <button id="maze-btn">Read More</button>
+          </div>
+          <div class="rock"> 
+            <img src="images/search.png" />
+            <h4>Search Engine</h4>
+            <button id="search-btn">Read More</button>
           </div>
         </div>
       </div>
@@ -84,38 +85,42 @@
         <div class="footer-links">
           <div class="areas">
             <ul>
-              <li><a href="#">Hikes</a></li>
-              <li><a href="#">Lakes</a></li>
-
-              <li><a href="#">Parks</a></li>
-              <li><a href="#">Cafes</a></li>
-              <li><a href="#">Rivers</a></li>
-              <li><a href="#">Forests</a></li>
-            </ul>
-          </div>
-          <div class="actions">
-            <ul>
-              <li><a href="#">Help & FAQ</a></li>
-              <li><a href="#">Partnerships</a></li>
-              <li><a href="#">Join the team</a></li>
+              <li>Contact Me!</li>
             </ul>
           </div>
           <div class="contact">
             <ul>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/nina-herman"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/nherman222"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://drive.google.com/file/d/1g1yySo6JwSK9SaMR5guoHkyFz-NsI1jx/view?usp=sharing" alt="resume"><i class="fa fa-file"></i></a></li>
+            </ul>
+            <ul> 
+              <li>Email: nina.n.herman.22@dartmouth.edu </li>
             </ul>
           </div>
         </div>
-        <div class="sign-up">
+        <!-- <div class="sign-up">
           <p>Come on, you know you want to join.</p>
           <input type="email" placeholder="Email Address"></input>
           <button id="sign-up-confirm">Sign up</button>
-        </div>
+        </div> -->
+          <div id="results-modal" class="modal">
+            <div class="modal-content">
+              <span id="close-modal" class="close">&times;</span>
+              <div class="modal-text">
+                <h2 id="results-title"></h2>
+                <p id="explanation"></p>
+              </div>
+            </div>
+          </div>
       </footer>
       
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </body>
 </html>
