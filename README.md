@@ -1,4 +1,4 @@
-# Landing Page
+# ninaherman.me
 
 Webpage about me!
 
